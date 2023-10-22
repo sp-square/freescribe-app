@@ -8,6 +8,7 @@ function App() {
 	const [audioStream, setAudioStream] = useState(null); // live recording
 
 	const isAudioAvailable = file || audioStream;
+	// const isAudioAvailable = true;
 
 	function handleAudioReset() {
 		setFile(null);
