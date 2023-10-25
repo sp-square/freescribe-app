@@ -66,7 +66,7 @@ function Homepage({ setFile, setAudioStream }) {
 	}, [recordingStatus]);
 
 	return (
-		<main className="flex-1 p-4 flex flex-col gap-3 sm:gap-4 md:gap-5 justify-center text-center pb-20">
+		<main className="flex-1 p-4 flex flex-col gap-3 sm:gap-4 justify-center text-center pb-20">
 			<h1 className="font-semibold text-5xl sm:text-6xl md:text-7xl">
 				Free<span className="text-blue-400 bold">Scribe</span>
 			</h1>
